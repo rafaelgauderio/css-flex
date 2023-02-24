@@ -23,6 +23,16 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-items: flex-end;
-    
+    align-items: flex-end;    
+}
+.container-flex-bottom .f3 {
+    align-self: flex-end;
+}
+
+.container-flex-bottom .f2 {
+    align-self: stretch;
+}
+
+.container-flex-bottom .f1 {
+    align-self: flex-start;
 }
