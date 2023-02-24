@@ -1,0 +1,4 @@
+Por padrão o eixo padrão é o horizonta. Mas é possível inverter.
+O eixo primário é horizontal e o secundário é o vertical
+justify-content: define a disposição dos elementos com relação ao eixo principal
+aling-items: define a disposição dos elementos com relação ao eixo secundário
