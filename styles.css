@@ -11,26 +11,32 @@
 
 .container-flex-top .f1 {
     flex-grow: 1;
+    flex-basis: 0;
 }
 
 .container-flex-top .f2 {
     flex-grow: 3;
+    flex-basis: 0;
 }
 
 .container-flex-top  .f3 {
     flex-grow: 5;
+    flex-basis: 0;
 }
 
 .container-flex-bottom .f1 {
     flex-grow: 3;
+    flex-basis: 0;    
 }
 
 .container-flex-bottom .f2 {
     flex-grow: 2;
+    flex-basis: 0;
 }
 
 .container-flex-bottom  .f3 {
     flex-grow: 1;
+    flex-basis: 0;
 }
 
 

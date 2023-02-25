@@ -18,4 +18,7 @@ flex: 1. Vai aumentar e diminuir e proporcionalmente para todos os itens dentro 
 flex pode receber 3 propriedades. flex-grow, flex-shrink, flex-basis
 flex: 1 0		vai crescer e não encolher
 
+flex-basis: elemento vai ter tamanho base determinado e vai aumentar ou encolher baseada nesse tamanho.
+Usar flex-basis:0 e definir o tamanho proporcional da cada div. Assim ignora o width ou heght informado
+
 
