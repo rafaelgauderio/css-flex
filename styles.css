@@ -1,3 +1,7 @@
+div {
+    text-align: center;
+}
+
 .container-flex-top {
     display: flex;
     flex-direction: row;   
@@ -10,32 +14,32 @@
 }
 
 .container-flex-top .f1 {
-    flex-grow: 1;
+    flex: 2;
     flex-basis: 0;
 }
 
 .container-flex-top .f2 {
-    flex-grow: 3;
+    flex: 1;
     flex-basis: 0;
 }
 
 .container-flex-top  .f3 {
-    flex-grow: 5;
+    flex: 2;
     flex-basis: 0;
 }
 
 .container-flex-bottom .f1 {
-    flex-grow: 3;
+    flex: 4;
     flex-basis: 0;    
 }
 
 .container-flex-bottom .f2 {
-    flex-grow: 2;
+    flex: 2;
     flex-basis: 0;
 }
 
 .container-flex-bottom  .f3 {
-    flex-grow: 1;
+    flex: 1;
     flex-basis: 0;
 }
 
