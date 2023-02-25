@@ -19,11 +19,15 @@
     align-items: center;
 }
 
+.container-flex-center2 .f2 {
+    align-self: stretch;
+}
+
 .container-flex-bottom {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-items: flex-end;    
+    align-items: center;    
 }
 .container-flex-bottom .f3 {
     align-self: flex-end;
