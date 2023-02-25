@@ -11,4 +11,7 @@ Inverter o eixo. flex-direction: column. Um item fica abaixo do outro
 Agora o eixo principal é o vertical, logo a propriedade justify-content: em cima ou em baixo
 e a aling-items: esquerda e direita, pois agora o eixo horizontal é o secundário.
 
+flex-grow: itens vão aumentar para pegar o espaço disponível inteiro da div
+flex-shrink: 0 para não encolher de tamanho
+
 
