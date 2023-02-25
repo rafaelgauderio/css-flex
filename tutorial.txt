@@ -14,4 +14,8 @@ e a aling-items: esquerda e direita, pois agora o eixo horizontal é o secundár
 flex-grow: itens vão aumentar para pegar o espaço disponível inteiro da div
 flex-shrink: 0 para não encolher de tamanho
 
+flex: 1. Vai aumentar e diminuir e proporcionalmente para todos os itens dentro da div
+flex pode receber 3 propriedades. flex-grow, flex-shrink, flex-basis
+flex: 1 0		vai crescer e não encolher
+
 
