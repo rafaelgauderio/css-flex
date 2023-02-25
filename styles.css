@@ -1,10 +1,6 @@
-.container-flex-top{
+.container-flex-top {
     display: flex;
     flex-direction: row;   
-}
-
-.container-flex-top .item-flex {
-    flex: 1 0;
 }
 
 .container-flex-bottom {
@@ -13,9 +9,29 @@
 
 }
 
-.container-flex-bottom .item-flex {
-    flex: 0 1;
-    flex-basis: 300px;
+.container-flex-top .f1 {
+    flex-grow: 1;
 }
+
+.container-flex-top .f2 {
+    flex-grow: 3;
+}
+
+.container-flex-top  .f3 {
+    flex-grow: 5;
+}
+
+.container-flex-bottom .f1 {
+    flex-grow: 3;
+}
+
+.container-flex-bottom .f2 {
+    flex-grow: 2;
+}
+
+.container-flex-bottom  .f3 {
+    flex-grow: 1;
+}
+
 
 
