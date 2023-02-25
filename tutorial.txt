@@ -1,4 +1,14 @@
-Por padrão o eixo padrão é o horizonta. Mas é possível inverter.
+Por padrão o eixo padrão é o horizontal. Mas é possível inverter.
 O eixo primário é horizontal e o secundário é o vertical
 justify-content: define a disposição dos elementos com relação ao eixo principal
 aling-items: define a disposição dos elementos com relação ao eixo secundário
+
+o padrão no aling-itens é stretch
+flex-direction: row. Um item ao lado do outro
+justify-content: direita ou esquerda
+
+Inverter o eixo. flex-direction: column. Um item fica abaixo do outro
+Agora o eixo principal é o vertical, logo a propriedade justify-content: em cima ou em baixo
+e a aling-items: esquerda e direita, pois agora o eixo horizontal é o secundário.
+
+
