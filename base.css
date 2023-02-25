@@ -6,7 +6,7 @@ body {
 
 .container-flex-top, .container-flex-bottom, .container-flex-center, .container-flex-center2  {
     background-color: aqua;
-    height: 400px;
+    height: 150x;
     border-radius: 10px;
     margin-bottom: 10px;    
 }
@@ -16,10 +16,8 @@ body {
     border: 2px solid silver;
     color: dimgrey;
     border-radius: 10px;
-    font-size: 30px;
-    width: 200px;
+    font-size: 30px;    
     margin: 15px;
-    
-        
+    padding: 5px;        
 }
 

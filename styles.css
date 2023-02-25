@@ -5,43 +5,29 @@ div {
 .container-flex-top {
     display: flex;
     flex-direction: row;   
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+ .logo {
+    width: 200px;
+}
+
+.container-flex-top .busca {
+    flex: 1;
 }
 
 .container-flex-bottom {
     display: flex;
     flex-direction: row;
-
+    justify-content: space-between;
+    align-items: center;
 }
 
-.container-flex-top .f1 {
-    flex: 2;
-    flex-basis: 0;
-}
-
-.container-flex-top .f2 {
+.container-flex-bottom .busca {
     flex: 1;
-    flex-basis: 0;
 }
 
-.container-flex-top  .f3 {
-    flex: 2;
-    flex-basis: 0;
-}
-
-.container-flex-bottom .f1 {
-    flex: 4;
-    flex-basis: 0;    
-}
-
-.container-flex-bottom .f2 {
-    flex: 2;
-    flex-basis: 0;
-}
-
-.container-flex-bottom  .f3 {
-    flex: 1;
-    flex-basis: 0;
-}
 
 
 
