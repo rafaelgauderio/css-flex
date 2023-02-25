@@ -15,6 +15,7 @@
 
 .container-flex-bottom .item-flex {
     flex: 0 1;
+    flex-basis: 300px;
 }
 
 
